@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.noteAuditAIQueue = exports.carcRarcQueue = exports.workQueuesQueue = exports.tasksQueue = exports.billingAlertQueue = exports.dashboardMetricRefreshQueue = exports.claimFollowUpReminderQueue = exports.ticketEscalationReminderQueue = exports.paymentPlanReminderQueue = exports.documentExpirationAlertQueue = exports.missingClaimScanQueue = exports.missingNoteScanQueue = exports.notificationSendQueue = exports.emailSendQueue = exports.smsSendQueue = exports.reminderSendQueue = exports.reportRefreshQueue = exports.agingQueue = exports.staleClaimScanQueue = exports.eraImportQueue = exports.batchEligibilityQueue = exports.eligibilityQueue = exports.claimsQueue = void 0;
+const bullmq_1 = require("../utils/bullmq");
+exports.claimsQueue = (0, bullmq_1.createBullQueue)('claims');
+exports.eligibilityQueue = (0, bullmq_1.createBullQueue)('eligibility');
+exports.batchEligibilityQueue = (0, bullmq_1.createBullQueue)('batchEligibility');
+exports.eraImportQueue = (0, bullmq_1.createBullQueue)('eraImport');
+exports.staleClaimScanQueue = (0, bullmq_1.createBullQueue)('staleClaimScan');
+exports.agingQueue = (0, bullmq_1.createBullQueue)('agingWorkQueue');
+exports.reportRefreshQueue = (0, bullmq_1.createBullQueue)('reportRefresh');
+exports.reminderSendQueue = (0, bullmq_1.createBullQueue)('reminderSend');
+exports.smsSendQueue = (0, bullmq_1.createBullQueue)('smsSend');
+exports.emailSendQueue = (0, bullmq_1.createBullQueue)('emailSend');
+exports.notificationSendQueue = (0, bullmq_1.createBullQueue)('notificationSend');
+exports.missingNoteScanQueue = (0, bullmq_1.createBullQueue)('missingNoteScan');
+exports.missingClaimScanQueue = (0, bullmq_1.createBullQueue)('missingClaimScan');
+exports.documentExpirationAlertQueue = (0, bullmq_1.createBullQueue)('documentExpirationAlert');
+exports.paymentPlanReminderQueue = (0, bullmq_1.createBullQueue)('paymentPlanReminder');
+exports.ticketEscalationReminderQueue = (0, bullmq_1.createBullQueue)('ticketEscalationReminder');
+exports.claimFollowUpReminderQueue = (0, bullmq_1.createBullQueue)('claimFollowUpReminder');
+exports.dashboardMetricRefreshQueue = (0, bullmq_1.createBullQueue)('dashboardMetricRefresh');
+exports.billingAlertQueue = (0, bullmq_1.createBullQueue)('billingAlert');
+exports.tasksQueue = (0, bullmq_1.createBullQueue)('tasks');
+exports.workQueuesQueue = (0, bullmq_1.createBullQueue)('workQueues');
+exports.carcRarcQueue = (0, bullmq_1.createBullQueue)('carcRarc');
+exports.noteAuditAIQueue = (0, bullmq_1.createBullQueue)('noteAuditAI');
+//# sourceMappingURL=index.js.map

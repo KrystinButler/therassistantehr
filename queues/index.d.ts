@@ -1,0 +1,24 @@
+export declare const claimsQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const eligibilityQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const batchEligibilityQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const eraImportQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const staleClaimScanQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const agingQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const reportRefreshQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const reminderSendQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const smsSendQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const emailSendQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const notificationSendQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const missingNoteScanQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const missingClaimScanQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const documentExpirationAlertQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const paymentPlanReminderQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const ticketEscalationReminderQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const claimFollowUpReminderQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const dashboardMetricRefreshQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const billingAlertQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const tasksQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const workQueuesQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const carcRarcQueue: import("../utils/bullmq").QueueHandle<unknown>;
+export declare const noteAuditAIQueue: import("../utils/bullmq").QueueHandle<unknown>;
+//# sourceMappingURL=index.d.ts.map
