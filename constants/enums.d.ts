@@ -1,0 +1,3 @@
+export declare const ROLES: readonly ["super_admin", "organization_admin", "biller", "clinician", "supervisor", "support_staff", "read_only"];
+export declare const DOCUMENT_CATEGORIES: readonly ["eob", "era", "eligibility_report", "claim_attachment", "appeal_letter", "signed_form", "credentialing_document", "insurance_card", "intake_form", "progress_note", "treatment_plan", "contract", "invoice", "superbill"];
+//# sourceMappingURL=enums.d.ts.map
